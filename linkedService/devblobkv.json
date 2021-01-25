@@ -1,0 +1,11 @@
+{
+	"name": "devblobkv",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://devblob.vault.azure.net/"
+		}
+	}
+}
